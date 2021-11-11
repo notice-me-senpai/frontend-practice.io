@@ -1,0 +1,136 @@
+div ::before {
+    width: 1440px;
+}
+
+div::after {
+    width: 375px;
+}
+
+.hero {
+    position: relative;
+    top: -350px;
+    bottom: 100px;
+}
+
+.back {
+    position: sticky;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.box {
+    background-color: white;
+    position: relative;
+    top: -355px;
+    width: 451px;
+    height: 500px;
+    right: -526px;
+    left: 526px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.heading {
+    position: relative;
+    top: -410px;
+    left: 0px;
+    text-align: center;
+}
+
+.center-text {
+    color: grey;
+    position: relative;
+    top: -820px;
+    left: 0px;
+    text-align: center;
+}
+
+svg {
+    bottom: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+button {
+    background-color: rgb(92, 43, 226);
+    color: ivory;
+    width: 380px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    top: -990px;
+    left: 0px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+    background-color: #473686
+}
+
+.button:active {
+    background-color: #2a2369;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.icon {
+    position: relative;
+    top: -200px;
+    left: -50px;
+}
+
+.plan {
+    position: relative;
+    top: -768px;
+    left: -10px;
+    text-align: center;
+}
+
+.plan-box {
+    background-color: hsl(225, 100%, 98%);
+    /* background: transparent; */
+    border-radius: 10px;
+    position: relative;
+    top: -690px;
+    /* right: 1140px; */
+    left: 610px;
+    width: 380px;
+    height: 80px;
+}
+
+.music {
+    position: relative;
+    top: -607px;
+    left: -105px;
+    z-index: 1;
+}
+
+.change {
+    position: relative;
+    bottom: 860px;
+    left: 185px;
+}
+
+.cancel {
+    color: grey;
+    text-decoration: none;
+    position: relative;
+    top: -970px;
+    left: 0px;
+}
+
+.price {
+    color: grey;
+    position: relative;
+    top: -813px;
+    left: -15px;
+    text-align: center;
+}
