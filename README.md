@@ -1,2 +1,2 @@
 # frontend-practice
-building a website 
+Just building a website 
